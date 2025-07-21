@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --main-black: #101828;
+  --gray: #8d929a;
+  --light-gray: #dadde1;
+  --header-white: #f2f4f7;
+  --input-white: #f7f7f7;
+  --white: #ffffff;
+  --blue: #3470ff;
+  --dark-blue: #0b44cd;
+  --font-family: 'Manrope', sans-serif;
+  --second-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: var(--white);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input,
+textarea,
+button {
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}

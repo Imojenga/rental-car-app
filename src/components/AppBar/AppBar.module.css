@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 120px;
+  background-color: var(--header-white);
+}
+
+.nav {
+  display: flex;
+  gap: 32px;
+}
+
+.link {
+  font-family: var(--font-family);
+  font-weight: 500;
+  line-height: 1.25;
+  color: var(--main-black);
+}
+
+.active {
+  color: var(--dark-blue);
+}
