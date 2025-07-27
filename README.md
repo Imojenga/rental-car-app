@@ -1,12 +1,69 @@
-# React + Vite
+## RentalCar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+RentalCar - це сучасний веб-додаток для перегляду, фільтрації та бронювання
+автомобілів в оренду.
 
-Currently, two official plugins are available:
+## Опис
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Додаток дозволяє користувачам:
 
-## Expanding the ESLint configuration
+- переглядати каталог автомобілів з API,
+- фільтрувати машини за брендом, ціною та пробігом,
+- переглядати детальну інформацію про кожен автомобіль,
+- додавати авто до обраних (зберігаються в localStorage),
+- завантажувати більше авто через пагінацію,
+- орендувати авто за допомогою форми.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Технології
+
+- React + Vite
+- Redux Toolkit
+- React Router
+- Axios
+- CSS Modules
+
+## API:
+
+https://car-rental-api.goit.global/api-docs/
+
+## Основні функції
+
+- Каталог автомобілів
+- Фільтрація за параметрами (бекенд)
+- Обране (localStorage)
+- Пагінація
+- Форма оренди
+- Завантаження брендів з API
+
+## Інсталяція
+
+1. Клонувати репозиторій:
+
+- git clone https://github.com/Imojenga/rental-car-app.git
+- cd rental-car-app
+
+2. Встановити залежності:
+
+- npm install
+
+3. Запустити проект локально:
+
+- npm run dev
+
+4. Відкрити у браузері:
+
+- http://localhost:5173
+
+## Деплой
+
+Проєкт задеплоєний на Vercel:
+
+## Авторство
+
+Розробниця: Інна Йощенко
+
+GitHub: https://github.com/Imojenga
+
+## P.S.
+
+Проєкт є навчальним і використовує публічне API без авторизації.

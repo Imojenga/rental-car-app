@@ -1,9 +1,13 @@
 .header {
+  background-color: var(--header-white);
+  border-bottom: 1px solid var(--header-white);
+}
+
+.wrp {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 120px;
-  background-color: var(--header-white);
+  padding: 24px 0;
 }
 
 .nav {
@@ -12,12 +16,14 @@
 }
 
 .link {
-  font-family: var(--font-family);
   font-weight: 500;
   line-height: 1.25;
   color: var(--main-black);
+  transition: color 250ms ease-in-out;
 }
 
-.active {
+.active,
+.link:hover,
+.link:focus {
   color: var(--dark-blue);
 }

@@ -1,5 +1,7 @@
+import { BeatLoader } from 'react-spinners';
+
 const Loader = () => {
-  return <></>;
+  return <BeatLoader />;
 };
 
 export default Loader;

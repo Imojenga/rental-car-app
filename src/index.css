@@ -13,11 +13,11 @@
   --blue: #3470ff;
   --dark-blue: #0b44cd;
   --font-family: 'Manrope', sans-serif;
-  --second-family: 'Inter', sans-serif;
 }
 
 body {
   background-color: var(--white);
+  font-family: var(--font-family);
 }
 
 ul {
@@ -31,6 +31,7 @@ a {
 
 input,
 textarea,
+select,
 button {
   border: none;
   outline: none;

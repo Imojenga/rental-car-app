@@ -1,0 +1,58 @@
+.form {
+  border: 1px solid var(--light-gray);
+  border-radius: 10px;
+  padding: 32px;
+}
+
+.wrp {
+  margin-bottom: 24px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--main-black);
+  margin-bottom: 8px;
+}
+
+.text {
+  font-weight: 500;
+  line-height: 1.25;
+  color: var(--gray);
+}
+
+.inputsWrp {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.input {
+  border-radius: 12px;
+  padding: 12px 20px;
+  background-color: var(--input-white);
+  font-weight: 500;
+  line-height: 1.25;
+  color: var(--gray);
+  resize: none;
+}
+
+.btn {
+  border-radius: 12px;
+  padding: 12px 51px;
+  width: 156px;
+  background-color: var(--blue);
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--white);
+  display: block;
+  margin: 0 auto;
+  transition: background-color 250ms ease-in-out;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--dark-blue);
+}

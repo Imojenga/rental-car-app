@@ -1,0 +1,18 @@
+.btn {
+  display: block;
+  border: 1px solid var(--blue);
+  background-color: inherit;
+  border-radius: 12px;
+  padding: 12px 0;
+  width: 156px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--main-black);
+  transition: border 250ms ease-in-out;
+  margin: 0 auto 124px auto;
+}
+
+.btn:hover,
+.btn:focus {
+  border: 1px solid var(--dark-blue);
+}

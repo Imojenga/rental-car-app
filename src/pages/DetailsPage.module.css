@@ -1,0 +1,14 @@
+.wrp {
+  display: flex;
+  gap: 72px;
+  margin-top: 84px;
+  align-items: flex-end;
+}
+
+.colLeft {
+  width: 640px;
+}
+
+.colRight {
+  width: 488px;
+}

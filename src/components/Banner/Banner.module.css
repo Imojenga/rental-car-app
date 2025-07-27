@@ -1,0 +1,48 @@
+.wrp {
+  background-color: var(--main-black);
+  background-image: url(/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 436px 0 60px 0;
+}
+
+@media (min-resolution: 192dpi) {
+  .wrp {
+    background-image: url(/banner@2x.jpg);
+  }
+}
+
+.title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.text {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  margin-bottom: 40px;
+}
+
+.btn {
+  border-radius: 12px;
+  padding: 12px 0;
+  background-color: var(--blue);
+  color: inherit;
+  font-weight: 600;
+  line-height: 1.25;
+  width: 276px;
+  transition: background-color 250ms ease-in-out;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--dark-blue);
+}
