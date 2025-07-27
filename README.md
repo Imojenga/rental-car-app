@@ -56,7 +56,7 @@ https://car-rental-api.goit.global/api-docs/
 
 ## Деплой
 
-Проєкт задеплоєний на Vercel:
+Проєкт задеплоєний на Vercel: https://rental-car-app-one.vercel.app/
 
 ## Авторство
 
